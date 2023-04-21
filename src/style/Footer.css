@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 3vh 0 3vh 0;
+    background-color: #f0f0f0f2;
+    /* border: 1px solid black; */
+    box-shadow: 0.1rem -0.1rem 0.7rem #222224;
+    border-radius: 10px 10px 0 0;
+    z-index: 1;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #f00000;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  #buttonToTop {
+    position: fixed;
+    z-index: 10;
+    bottom: 9vh;
+    right: 1rem;
+    font-size: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    color: #f00000;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.001rem;
+  }
+  

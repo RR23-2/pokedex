@@ -1,10 +1,10 @@
 import Footer from "../components/Footer.jsx";
-import { CardContainer } from "../components/CardContainer.jsx";
+import SearchFunction from "../components/SearchFunction.jsx";
 
-export default function Home() {
+export default function Search() {
   return (
     <div>
-      <CardContainer />
+      <SearchFunction />
       <Footer />
     </div>
   );
